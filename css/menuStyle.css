@@ -1,0 +1,40 @@
+﻿body {
+}
+
+.accMenu {
+    direction: rtl;
+    text-align: right;
+}
+
+    .accMenu .accTitle {
+        background-color: #696969;
+        margin: 0;
+        padding: 5px 15px;
+        border: 1px solid #DDD;
+    }
+
+        .accMenu .accTitle:hover {
+            cursor: pointer;
+            background-color: #818181;
+        }
+
+        .accMenu .accTitle p {
+            font-family: 'B Yekan';
+            font-size: 20px;
+            color:#fff;
+        }
+
+    .accMenu .accContent {
+        display: none;
+        background-color: #DDF;
+        border-right: 1px solid #DDD;
+        border-left: 1px solid #DDD;
+        margin: 0;
+        padding: 20px;
+    }
+
+        .accMenu .accContent p {
+            line-height: 1.5;
+            font-size: 14px;
+            font-family: "b yekan";
+        }
